@@ -1,0 +1,3 @@
+[submodule "libs/code-act"]
+	path = libs/code-act
+	url = https://github.com/xingyaoww/code-act.git
