@@ -1,13 +1,11 @@
-# TissueCodePilot: A Code-Action Agent for AI-Assisted Spatial Tissue Analysis
+# TissueCodePilot: A Code-Action Agent for AI-Assisted Spatial Tissue Analysis (MICCAI'26 - early acceptance)
 
 <p align="center">
   <img src="assets/banner.png" width="1000" alt="TissueCodePilot banner" />
 </p>
 
-<div align="center">
-  <a href="https://papers.miccai.org/miccai-2026/1062-Paper1741.html" style="display:inline-block; margin:4px; padding:8px 14px; border:1px solid #d0d7de; border-radius:999px; background:#f6f8fa; color:#24292f; text-decoration:none; font-weight:600;">MICCAI 2026 (early acceptance)</a>
-  <a href="LICENSE" style="display:inline-block; margin:4px; padding:8px 14px; border:1px solid #d0d7de; border-radius:999px; background:#f6f8fa; color:#24292f; text-decoration:none; font-weight:600;">MIT License</a>
-</div>
+[![MICCAI 2026](https://img.shields.io/badge/MICCAI-2026-blue?style=for-the-badge)](https://papers.miccai.org/miccai-2026/1062-Paper1741.html)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 ## Overview
 TissueCodePilot is a code-action agent for AI-assisted spatial tissue analysis. It takes a minimal user prompt, selects the appropriate analysis steps, and executes code to quantify tissue structure and cellular microenvironments in a flexible, on-demand manner.
