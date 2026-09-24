@@ -1,6 +1,28 @@
 # TissueCodePilot: A Code-Action Agent for AI-Assisted Spatial Tissue Analysis
 
+<p align="center">
+  <img src="assets/banner.png" width="1000" alt="TissueCodePilot banner" />
+</p>
+
+<div align="center">
+  <a href="https://papers.miccai.org/miccai-2026/1062-Paper1741.html" style="display:inline-block; margin:4px; padding:8px 14px; border:1px solid #d0d7de; border-radius:999px; background:#f6f8fa; color:#24292f; text-decoration:none; font-weight:600;">MICCAI 2026 (early acceptance)</a>
+  <a href="LICENSE" style="display:inline-block; margin:4px; padding:8px 14px; border:1px solid #d0d7de; border-radius:999px; background:#f6f8fa; color:#24292f; text-decoration:none; font-weight:600;">MIT License</a>
+</div>
+
+## Overview
+TissueCodePilot is a code-action agent for AI-assisted spatial tissue analysis. It takes a minimal user prompt, selects the appropriate analysis steps, and executes code to quantify tissue structure and cellular microenvironments in a flexible, on-demand manner.
+
+### Highlights
+- Minimal prompting with a single user instruction
+- Flexible analysis for spatial tissue and biomarker discovery
+- A curated benchmark for spatial tissue analysis
+
 > **Note:** The code and dataset for this project are still being prepared and have not been fully released yet. Please stay tuned 😊🤗!
+
+## Announcements
+- **[2026-09-24]** Our paper open access version has been published on the MICCAI website! Read it here: https://papers.miccai.org/miccai-2026/1062-Paper1741.html
+- **[2026-05-30]** Check out our extended version of this work, "CodeCytos: AI-assisted spatial molecular imaging analysis via code-augmented agent action space" - preprint available at https://arxiv.org/abs/2606.00472
+- **[2026-05-07]** Our paper has been provisionally accepted for MICCAI 2026 (top 9% of papers)!
 
 ## Abstract
 Spatial tissue image analysis is essential for quantifying cellular microenvironments and tissue architecture. Yet existing software typically exposes a fixed feature set, which may limit biomarker discovery. When required features are missing, bioscientists may require collaboration with computational experts, which can introduce delays and limit scalability. To address these limitations, we propose **TissueCodePilot**, a coding-and-reasoning agent that observes relevant information from the analysis environment and autonomously plans and executes actions to support flexible, on-demand spatial tissue analysis. Unlike prior coding agents that rely on detailed, iterative prompting, TissueCodePilot requires only a single minimal user prompt, making it accessible to bioscientists without extensive programming experience. To evaluate TissueCodePilot, we curate an expert-annotated dataset spanning three tissue types with multiple fields of view per tissue. Each field of view is paired with 50 questions that provide minimal prompt context and cover diverse spatial feature categories. In total, the dataset comprises 1,500 image–question pairs with corresponding ground-truth outputs. We will publicly release this benchmark to support future research as the first coding-agent benchmark for spatial tissue image analysis. On this new benchmark, TissueCodePilot substantially outperforms prompt-instruction coding agent baselines, boosting Success Rate from ~0-2.4% to 18.5-35.4%, increasing pass@5 from at most 11.61% to 54.82-75.05%, and increasing pass@10 from at most 22.48% to 64.00–86.00%.
